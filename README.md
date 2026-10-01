@@ -9,3 +9,7 @@ Top positions by gross_line_values are formed by expensive products (Smartphone)
 Question 8 Interpretation required:
 
 The result contains all orders, where shipped_date is not filled in. COALESCE allows to processes missing values correctly (set status 'Not Shipped'). It is important for monitoring logistics operations which are in progress or delayed.
+
+Question 10 Interpretation required:
+
+Summary shows the scale of sales (1080 order lines throughout 360 unique orders, so 3 products per order in average). Total gross value forms from wide variety of products and prices.
